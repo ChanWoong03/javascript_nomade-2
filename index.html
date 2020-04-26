@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Something</title> <!--title명이 something이다.-->
+    <meta charset = "utf-8"/>
+    <link rel ="stylesheet" href = "style.css" /> <!--style.css에서 css파일을 받아온다.-->
+  </head>
+
+  <body>
+    <div class="js-clock"> <!--div생성, class 이름은 js-clock-->
+        <h1>00:00:00</h1>
+    </div>
+    <form class ="js-form form"> <!--div생성, class 이름은 js-form-->
+      <input type="text" placeholder="What is your name?"/> <!--텍스트 입력 타입에 기본 텍스트로 what is your name을 제시-->
+    </form>
+    <h4 class="js-greetings greetings"></h4>
+    <form class="js-todoForm">
+      <input type="text" placeholder="Write a to do" />
+
+    </form>
+    <ul class="js-toDoList">
+
+    </ul>
+    <script src="todo.js"></script><!--todo.js에서 js를 받아온다-->
+    <script src="clock.js"></script><!--clock.js에서 js를 받아온다-->
+    <script src="gretting.js"></script><!--gretting.js에서 js를 받아온다-->
+</html>
